@@ -29,7 +29,7 @@ public class MahasiswaTest {
     
     @Test
     public void test1(){
-        m.setNama("Trias");
+        m.setNama("Trias Fachrul Z");
         assertNotNull(m.getNama());
     }
     
@@ -41,7 +41,7 @@ public class MahasiswaTest {
     
     @Test
     public void test3(){
-        m.setNama("Trias");
+        m.setNama("Trias Fachrul");
         assertSame("Trias", m.getNama());
     }
     
